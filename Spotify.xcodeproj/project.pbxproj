@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5309C2562CFCAACC00802DC3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5309C2552CFCAACC00802DC3 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5309C2352CFCA91400802DC3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5309C2562CFCAACC00802DC3 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = Spotify;
 			packageProductDependencies = (
+				5309C2552CFCAACC00802DC3 /* SDWebImageSwiftUI */,
 			);
 			productName = Spotify;
 			productReference = 5309C2242CFCA91300802DC3 /* Spotify.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 5309C21B2CFCA91300802DC3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5309C2512CFCAA1E00802DC3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5309C2252CFCA91300802DC3 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5309C2512CFCAA1E00802DC3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5309C2552CFCAACC00802DC3 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5309C2512CFCAA1E00802DC3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5309C21C2CFCA91300802DC3 /* Project object */;
 }
