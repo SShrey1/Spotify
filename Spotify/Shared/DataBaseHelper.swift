@@ -35,6 +35,9 @@ struct DataBaseHelper {
 
 
 
+
+
+
 //enum AvailabilityStatus: String, Codable {
 //    case inStock = "In Stock"
 //    case lowStock = "Low Stock"

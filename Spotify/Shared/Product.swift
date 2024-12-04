@@ -12,32 +12,21 @@ struct ProductArray: Codable {
     let total, skip, limit: Int
 }
 
-// MARK: - Product
 struct Product: Codable, Identifiable {
     let id: Int
     let title, description: String
+    let category: Category2
     let price, discountPercentage, rating: Double
     let stock: Int
-    let brand: String
-    let category: Category
+   
+    let brand: String?
+   
     let images: [String]
     let thumbnail: String
-    
-//    let tags: [String]
-//
-//    let sku: String
-//    let weight: Int
-//    let dimensions: Dimensions
-//    let warrantyInformation, shippingInformation: String
-//    let availabilityStatus: AvailabilityStatus
-//    let reviews: [Review]
-//    let returnPolicy: ReturnPolicy
-//    let minimumOrderQuantity: Int
-//    let meta: Meta
-    
 }
 
-enum Category: String, Codable {
+
+enum Category2: String, Codable {
     case beauty = "beauty"
     case fragrances = "fragrances"
     case furniture = "furniture"

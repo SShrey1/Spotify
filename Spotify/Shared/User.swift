@@ -17,11 +17,8 @@ struct User: Codable, Identifiable {
     let id: Int
     let firstName, lastName: String
     let age: Int
-   
     let email, phone, username, password: String
     let birthDate: String
     let image: String
-   
     let height, weight: Double
-    
 }
