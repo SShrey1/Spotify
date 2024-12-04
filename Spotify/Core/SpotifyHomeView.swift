@@ -18,6 +18,12 @@ struct SpotifyHomeView: View {
             ScrollView(.vertical){
                 LazyVStack(spacing: 1,pinnedViews: [.sectionHeaders],content: {
                     Section{
+                        
+                        VStack{
+                            LazyVStack{
+                                
+                            }
+                        }
                         ForEach(0..<20){ _ in
                             Rectangle()
                                 .fill(Color.red)
